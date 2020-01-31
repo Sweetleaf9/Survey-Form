@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>DocumentHello</title>
+    
+</head>
+<body>
+    <h1 style="text-align:center;" id="title">Tune Me In</h1>
+
+        <p style="text-align:center;" id="description">This is a survey where you tell us what music you're inspired by</p>
+    <div id="body">
+    <form id="survey-form">
+        
+        <label id="name-label" for="name"><p>Name:</p></label>
+        <input id="name" type="text" placeholder="Enter yo Bitchass Name" required><br>
+        <label id="email-label" for="email"><p>Email:</p></label>
+        <input id="email" type="email" placeholder="Enter yo Bitchass Email" required><br>
+        <label id="number-label" for="number"><p>Age:</p></label>
+        <input id="number" type="number" placeholder="Enter your Age" min="18" max="90" required><br>
+
+    <p>What Genre Of Music Do You Prefer?</p>
+        <select id="dropdown">
+
+            <option value="default">None Selected</option>
+            <option value="rock/classic-rock">Rock/Classic-Rock</option>
+            <option value="heavy metal">Heavy Metal</option>
+            <option value="hip-hop">Hip-Hop</option>
+            <option value="country">Country Music</option>
+            <option value="blues">Blues</option>
+            <option value="jazz">Jazz</option>
+            <option value="techno">Techno</option>
+            <option value="other">Other</option>
+
+        
+        </select>
+
+    <p>What Is Your Favorite Instrument?</p>
+        <input type="radio" name="instrument" value="1">Guitar<br>
+        <input type="radio" name="instrument" value="2">Drums<br>
+        <input type="radio" name="instrument" value="3">Piano<br>
+        <input type="radio" name="instrument" value="3">Other<br>
+
+    <p>How Often Do You Listen To Music?</p>
+        <select id="dropdown-1">
+            <option value="default">None Selected</option>
+            <option value="rock/classic-rock">Less Than 1 Hour a Day</option>
+            <option value="heavy metal">1-2 hours a day</option>
+            <option value="hip-hop">2-3 hours a day</option>
+            <option value="country">3-4 hours a day</option>
+            <option value="blues">More than 4 hours a day</option>
+        </select>
+
+
+    <p>When Do You Normally Listen To Music?</p>
+        <input type="checkbox" name="placeholder" value="1">When I am working/Studying<br>
+        <input type="checkbox" name="placeholder" value="1">At home relaxing<br>
+        <input type="checkbox" name="placeholder" value="1">When traveling<br>
+        <input type="checkbox" name="placeholder" value="1">When I am working out<br>
+        
+
+    <p>Comments or Suggestions?</p>
+        <textarea id="comment" rows="7" cols="60">Place your feedback</textarea><br>
+    
+        <input id="submit" type="submit">
+    
+    
+    </form>
+    </div>
+
+</body>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+</html>
